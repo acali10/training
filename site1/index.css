@@ -5,19 +5,36 @@
 margin: 0;
 text-decoration: none;
 font-family: "Baloo Tamma 2", Helvetica, sans-serif;
---yellow: #f8be00;
+
+--white: #fff;
+--blue: #48cbff;
+--purple: #360063;
+}
+
+header{
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+
+header a{
+  color: var(--purple);
 }
 
 .banner{
-  background-image: url(/images/pexels-nina-uhlíková-725255.jpg);
-  max-width: 100%;
-  height: auto;
+  background-image: url("/images/2588\ [Convertido]\ copiar.svg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-image: cover;
+  position: fixed;
+  z-index: 1;
 }
 
 .login{
   border-radius: 30px;
   padding: 10px 30px;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border: none;
   cursor: pointer;
   font-size: 14px;
@@ -27,32 +44,43 @@ font-family: "Baloo Tamma 2", Helvetica, sans-serif;
 .nav-item{
   display: flex;
   align-items: center;
-  justify-content: flex-end; 
-  gap: 50px;
-  margin: 30px auto;
-  max-width: 1500px;
+  gap: 30px;
+  justify-content: flex-end;
+  width: 660px;
+  margin-left: 900px;
+  margin-top: 20px;
+  background-color: var(--white);
+  border-radius: 30px;
+  padding: 10px;
+
 }
 
-.texts{
-  display: block;
+.container{
+  z-index: 4;
+  padding: 6px 20px;
   width: 500px;
-  margin-left: 200px;
-  margin-top: 200px;
+  margin: 300px 100px;
+  border-radius: 10px;
+  background-color: var(--white);
 }
 
 .discover{
   border-radius: 30px;
   border: none;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   padding: 10px 30px;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .title{
   font-family: "Titan One";
   font-size: 70px;
+  color: var(--purple);
 }
 
 .sub-title{
   padding: 30px 0;
+  width: 500px;
+  color: var(--purple);
 }
