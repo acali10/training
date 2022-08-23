@@ -4,10 +4,55 @@
 *{
 margin: 0;
 text-decoration: none;
+font-family: "Baloo Tamma 2", Helvetica, sans-serif;
+--yellow: #f8be00;
 }
 
 .banner{
   background-image: url(/images/pexels-nina-uhlíková-725255.jpg);
-
+  max-width: 100%;
+  height: auto;
 }
 
+.login{
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: var(--yellow);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Baloo Tamma 2";
+}
+
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  gap: 50px;
+  margin: 30px auto;
+  max-width: 1500px;
+}
+
+.texts{
+  display: block;
+  width: 500px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.discover{
+  border-radius: 30px;
+  border: none;
+  background-color: var(--yellow);
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.title{
+  font-family: "Titan One";
+  font-size: 70px;
+}
+
+.sub-title{
+  padding: 30px 0;
+}
