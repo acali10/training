@@ -4,5 +4,10 @@
 *{
 margin: 0;
 text-decoration: none;
+}
+
+.banner{
+  background-image: url(/images/pexels-nina-uhlíková-725255.jpg);
 
 }
+
